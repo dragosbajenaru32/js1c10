@@ -1,0 +1,27 @@
+{
+  "name": "js1c10_bajenaru_dragos",
+  "version": "1.0.0",
+  "description": "js1c10 exam solution",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dragosbajenaru32/js1c10.git"
+  },
+  "keywords": [
+    "exam"
+  ],
+  "author": "Dragos Bajenaru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dragosbajenaru32/js1c10/issues"
+  },
+  "homepage": "https://github.com/dragosbajenaru32/js1c10#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "fs": "0.0.1-security"
+  }
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>E-Commerce site</title>
+        <h1>This is an e-commerce site</h1>
+        <link rel="icon" href="../images/icon.ico">
+        <link rel="stylesheet" href="../css/styles.css">
+        <script rel="../scripts/data-service.js"></script>
+        <script rel="../scripts/contact-page.js"></script>
+    </head>
+    <body>
+        <div id="nav">
+            <ul id="menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../html/products.html">Products</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <form id="contact-form" name="contact-form">
+                <table>
+                    <tr>
+                        <td><input name="email" type="email" placeholder="Your email" required></td>
+                    </tr>
+                    <tr>
+                        <td><input name="title" type="text" placeholder="Your title" required></td>
+                    </tr>
+                    <tr>
+                        <td><textarea name="comment" rows="10" cols="25" placeholder="Insert your comment here" required></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><button type="submit">Submit</button></td>
+                    </tr>
+                </table>        
+            </form>
+            <div>
+                <label id='form-errors'></label>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,24 @@
+#nav{
+    background-color: lightgreen;
+}
+
+#menu li{
+    margin: 5px 5px 5px 5px;
+    display: inline;
+}
+
+#menu li a:hover{
+    color: red;
+}
+
+#contact{
+    width: 300px;
+}
+
+input[type=email], input[type=text], textarea, button{
+    width: 70%;
+}
+
+#image{
+    text-align: center;
+}
